@@ -35,5 +35,5 @@ const PokemonSchema = new Schema<IPokemon>({
         required: [true, "Field is required"]
     }
 });
-
+    
 export const Pokemon = model<IPokemon>("Pokemon", PokemonSchema);
